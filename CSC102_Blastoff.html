@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<!--Karter Burns-->
+<head>
+    <title>
+        Karters CSC102 Space Page
+    </title>
+    <script>
+        alert("Alert Function Test");
+    </script>
+    <style>
+        body {
+            background-color: indigo;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="UATspaceLogo-1.jpg"> <br>
+    <h1>
+        <p style="color:aqua">Space Program</p>
+    </h1>
+    <script>
+        var str = new String("Document.type test");
+        document.write(str.fontcolor("aqua"));
+    </script>
+    <p style="color:aqua">Testing the paragraph fucntion</p>
+    <br>
+    <button>Start</button>
+    <button>Stop</button><br>
+    <br>
+    <p id="CountdownTimer">Starting in...</p>
+
+    <script>
+        var currTime = 50;
+        var str = new String(currTime);
+        document.getElementById("CountdownTimer").innerHTML = currTime + (str.fontcolor("aqua"));
+        document.getElementById("CountdownTimer").innerHTML = currTime;
+        setTimeout(function () {
+            currTime = currTime - 5;
+            document.getElementById("CountdownTimer").innerHTML = currTime;
+        }, 5000);
+        setTimeout(function () {
+            currTime = currTime - 5;
+            document.getElementById("CountdownTimer").innerHTML = currTime;
+        }, 10000);
+        setTimeout(function () {
+            currTime = currTime - 5;
+            document.getElementById("CountdownTimer").innerHTML = currTime;
+        }, 15000);
+        setTimeout(function () {
+            currTime = currTime - 5;
+            document.getElementById("CountdownTimer").innerHTML = currTime;
+        }, 20000);
+        setTimeout(function () {
+            currTime = currTime - 5;
+            document.getElementById("CountdownTimer").innerHTML = currTime;
+        }, 25000);
+        setTimeout(function () {
+            currTime = currTime - 5;
+            document.getElementById("CountdownTimer").innerHTML = currTime;
+        }, 30000);
+        setTimeout(function () {
+            currTime = currTime - 5;
+            document.getElementById("CountdownTimer").innerHTML = currTime;
+        }, 35000);
+        setTimeout(function () {
+            currTime = currTime - 5;
+            document.getElementById("CountdownTimer").innerHTML = currTime;
+        }, 40000);
+        setTimeout(function () {
+            currTime = currTime - 5;
+            document.getElementById("CountdownTimer").innerHTML = currTime;
+        }, 45000);
+        setTimeout(function () {
+            currTime = currTime - 5;
+            document.getElementById("CountdownTimer").innerHTML = "Blastoff!!!";
+        }, 50000);
+    </script>
+</body>
+
+</html>
